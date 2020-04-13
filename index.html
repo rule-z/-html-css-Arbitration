@@ -23,6 +23,9 @@
         }
 
         a,
+        h1,
+        h2,
+        h3,
         p {
             font-family: "Roboto", "Arial", sans-serif;
             -webkit-font-smoothing: antialiased;
@@ -35,24 +38,23 @@
     </style>
 </head>
 <body>
-    <div class="layout">
+    <div class="layout" style="background-image: url('img/background.png')">
         <header class="header">
             <div class="header-logo">
-                <img src="" width="" height="" alt="" />
+                <img src="img/logo.png" width="109" height="30" alt="Школа трафика" />
             </div>
         </header>
         <main>
             <h1 class="visually-hidden">Школа трафика</h1>
-            <section class="promotion">
-                <h2 class="visually-hidden">Видео курс</h2>
-                <p class="">Видео курс</p>
-                <p class="">"Вступление в товарный<br />арбитраж трафика"</p>
-                <p class="">Получи бесплатный видео курс<br />по товарному арбитражу для новичков</p>
-                <form>
-                    <input type="email" placeholder="Введите ваш e-mail" />
-                    <input type="submit" value="Скачать видео курс" />
+            <section class="promotion" style="background-image: url('img/promotion-background.png'); background-repeat: no-repeat;">
+                <h2 style="font-size: 14px; font-weight: 300; line-height: 25.89px; letter-spacing: 0.01px; color: #f99406; text-transform: uppercase;">Видео курс</h2>
+                <p class="promotion-title" style="font-size: 40px; font-weight: 400; line-height: 52px; letter-spacing: 0.05px; color: #ffffff; text-transform: uppercase;">"Вступление в товарный<br />арбитраж трафика"</p>
+                <p class="promotion-description" style="font-size: 18px; font-weight: 300; line-height: 24px; letter-spacing: 0.05px; color: #bdbdbd;">Получи бесплатный видео курс<br />по товарному арбитражу для новичков</p>
+                <form class="promotion__form">
+                    <input class="promotion__form-email" type="email" placeholder="Введите ваш e-mail" aria-label="Введите ваш e-mail" />
+                    <input class="promotion__form-submit" type="submit" value="Скачать видео курс" />
                 </form>
-                <img src="" width="" height="" alt="" />
+                <img src="img/promotion.png" width="563" height="553" alt="Видео курс арбитража трафика" />
             </section>
             <section class="advantages">
                 <h2 class="visually-hidden">Наши предложения</h2>
@@ -73,15 +75,17 @@
             </section>
             <section class="about-me">
                 <h2 class="visually-hidden">Автор видео курса</h2>
-                Автор видео курса
-                Артур Гарнаев
-                Арбитражник, рекламодатель, интернет-предприниматель
-                Прокрутил рекламы более чем на 50000$
-                Ежедневно продаю более 150 физических товаров при том, что трафик на рекламу лью сам!
+                <img src="" width="" height="" alt="" />
+                <p class="">Автор видео курса</p>
+                <p class="">Артур Гарнаев</p>
+                <p class="">Арбитражник, рекламодатель, интернет-предприниматель</p>
+                <p class="">Прокрутил рекламы более чем на 50000$</p>
+                <p class="">Ежедневно продаю более 150 физических товаров при том, что трафик на рекламу лью сам!</p>
             </section>
             <section class="course-plan">
                 <h2 class="visually-hidden">Навыки которыми ты овладеешь</h2>
-                После прохождения бесплатного видео курса ты узнаешь:
+                <p class="">После прохождения бесплатного видео курса ты узнаешь:</p>
+
                 1
                 В чем суть арбитража трафика?
                 2
